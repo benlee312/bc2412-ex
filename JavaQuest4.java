@@ -12,13 +12,13 @@ public class JavaQuest4 {
     // 1. Even numbers
     // 2. Divisible by 3
     // 3. > 0
-    for (int i = 1; i < 100; i++) {
-      if (i % 2 == 0 && i % 3 == 0 && i > 0){
-      for (int j = 0; j < 5; i++){
-      }
-      System.out.println(i);
+    int printOuttime = 0;
+    for (int i = 0; i < 100; i++) {
+      if (i % 2 == 0 && i % 3 == 0 && i > 0 && printOuttime < 10){
+        System.out.println(i); printOuttime = printOuttime + 1;
+    }
+
     }
 
     }
   }
-}

@@ -11,12 +11,13 @@ public class JavaQuest6 {
     int sum = 0;
     // for loop to print first 15 numbers in Fibonacci Sequence
     for (int i = 0; i < 15; i++){
-      if (i = 0){
+      if ( i == 0) {
         System.out.println(first);
-      }else {
-        sum = first + second;
-      }
+              }else if (i >= 0){
+
+              }
+              System.out.println(i);
     }
-    System.out.print(sum);
+    
   }
 }
